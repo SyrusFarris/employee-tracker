@@ -1,28 +1,24 @@
-DROP DATABASE IF EXISTS employeesDB;
-
-CREATE DATABASE employeesDB
-
 USE employeesDB;
 
-CREATE TABLE department (
-    id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(45) NULL.
-    PRIMARY KEY (id)
-);
+INSERT INTO department (name)
+VALUES ("Sales");
+INSERT INTO department (name)
+VALUES ("Engineering");
+INSERT INTO department (name)
+VALUES ("Finance");
+INSERT INTO department (name)
+VALUES ("Legal");
 
-CREATE TABLE role (
-    id INT NOT NULL AUTO_INCREENT,
-    title VARCHAR(45) NULL,
-    salary DECIMAL(10.3) Null,
-    department_id INT NULL,
-    PRIMARY KEY (id)
-);
+INSERT INTO role (title, salary, department_id)
+Values ("Sales Lead", 100000, 1);
+INSERT INTO role (title, salary, department_id)
+Values ("Lead Engineer", 150000, 2);
+INSERT INTO role (title, salary, department_id)
+Values ("Software Engineer", 120000, 2);
+INSERT INTO role (title, salary, department_id)
+Values ("Accountant", 125000, 3);
+INSERT INTO role (title, salary, department_id)
+Values ("Legal Team Lead", 250000, 4);
 
-CREATE TABLE employee (
-    id INT NOT NULL AUTO_INCREMENT,
-    first_name VARCHAR(45) NULL,
-    last_name VARCHAR(45) NULL,
-    role_id INT NULL,
-    manager_id INT NULL,
-    PRIMARY KEY (id)
-);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("John", "Doe", 1, 3);
