@@ -23,3 +23,18 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+## How to Use
+    1. Download files from Repo
+    2. install npm init -y to create a new .json file
+    3. npm i
+    4. npm i inquirer@8.2.4
+    5. npm install --save mysql2
+    6. npm install console.table --save
+    7. make sure to run .sql file in mySQL workbench before running server.js so that tables are able to render
+    8. run node server.js
+    9. make sure server.js is connected to SQL before continuing
+    10. run through prompts as required
+
+## Difficulties
+I got this to work on my laptop (mac) but am having trouble getting it work on my pc. For the sake of time Im just turning in code. And will come back around to figure out how to make it work properly and record.
