@@ -50,7 +50,7 @@ var track_employee = function() {
             track_employee();
           });
         })
-      } else if (answers,prompt === 'Add a role') {
+      } else if (answers.prompt === 'Add a role') {
         db.query('SELECT * From department', (err, result) => {
           if (err) throw err;
 

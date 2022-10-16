@@ -37,4 +37,15 @@ THEN I am prompted to select an employee to update and their new role and this i
     10. run through prompts as required
 
 ## Difficulties
-I re-did this project after a few weeks.  Did a lot more research on documentation and looked at the module. 
+I re-did this project after a few weeks.  Did a lot more research on documentation and looked at the module. I properly learned how to route the DB to seed the results I want and get the program to work with and initiate the command line prompts. Very happy I took the time to go back and learn how to properly do this!
+
+
+## Screen Shots
+
+![Screenshot](./assets/eptracker.png "")
+
+## links:
+
+Github Repo: https://github.com/SyrusFarris/employee-tracker
+
+Link to video: https://drive.google.com/file/d/12bm5Ff63pqoNZt2Z9x63KDdgpoP3DxS7/view
