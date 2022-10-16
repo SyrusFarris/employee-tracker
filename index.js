@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const db = require('./db/connections');
+const db = require('./db/connections.js');
 
 db.connect(err => {
   if (err) throw err;
@@ -8,13 +8,12 @@ db.connect(err => {
 });
 
 var track_employee = function() {
-  inquirer.createPromptModule([{
+  inquirer.prompt([{
     type: 'list',
     name: 'prompt',
     message: 'What do you want to do?',
     choices: ['See all departments', 'See all roles', 'See all employees', 'Add a department', 'Add a role', 'Add a emplyee', 'Update an employees role', 'Sign out']
-  }])
-  .then((answers) => {
+  }]).then((answers) => {
     if (answers.prompt === 'See all departments') {
       db.query('SELECT * FROM department', (err, result) => {
         if(err) throw err;

@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "seed": "node seed.js",
+    "start": "node main"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SyrusFarris/employee-tracker.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/SyrusFarris/employee-tracker#readme",
   "dependencies": {
-    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   }
 }
