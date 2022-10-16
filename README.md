@@ -37,4 +37,4 @@ THEN I am prompted to select an employee to update and their new role and this i
     10. run through prompts as required
 
 ## Difficulties
-I got this to work on my laptop (mac) but am having trouble getting it work on my pc. For the sake of time Im just turning in code. And will come back around to figure out how to make it work properly and record.
+I re-did this project after a few weeks.  Did a lot more research on documentation and looked at the module. 
